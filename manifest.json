@@ -1,0 +1,26 @@
+{
+    "manifest_version": 1,
+    "type": "extension",
+    "name": "Whitesur 窗口按钮",
+    "slug": "whitesur_title_buttons",
+    "description": "将QQNT窗口按钮替换为macOS Whitesur风格",
+    "version": "0.0.1",
+    "icon": "./icon.svg",
+    "authors": [
+        {
+            "name": "zzxxchen",
+            "link": "https://github.com/zzxxchen"
+        }
+    ],
+    "platform": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "injects": {
+        "preload": "./src/preload.js"
+    },
+    "repository": {
+        "repo": "zzxxchen/QQNT-whitesur-titlebutton"
+    }
+}
